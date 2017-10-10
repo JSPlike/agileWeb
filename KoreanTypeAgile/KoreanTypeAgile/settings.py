@@ -82,15 +82,13 @@ WSGI_APPLICATION = 'KoreanTypeAgile.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',#postgresql
-        'NAME': 'KoreanTypeAgile',#프로젝트이름
-        'USER': 'postgres',
-        'PASSWORD': '0000',#개인 비번
+        'NAME': 'koreantypeagile',#프로젝트이름
+        'USER': 'test',
+        'PASSWORD': '1234',#개인 비번
         'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'PORT': '',
     }
 }
-
-
 
 
 # Password validation
